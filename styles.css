@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 5%;
 }
 
@@ -38,7 +39,6 @@ h2 {
     height: 10px; /* Specified height */
     background: black; /* Grey background */
     margin: 10px;
-
 }
 
 #slider::-webkit-slider-thumb {
@@ -47,6 +47,11 @@ h2 {
     height: 20px; /* Slider handle height */
     background: white; /* Green background */
     border: 2px solid black;
+    transition: all 0.1s ease-out;
+}
+
+#slider::-webkit-slider-thumb:hover {
+    transform: scale(1.1);
 }
 
 button {
