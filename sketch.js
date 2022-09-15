@@ -8,8 +8,8 @@ function createNewGrid(size)
     {
         const newSquare = document.createElement("div");
         newSquare.classList.add('square');
-        newSquare.style.width = (600 / size) + "px";
-        newSquare.style.height = (600 / size) + "px";
+        newSquare.style.width = (550 / size) + "px";
+        newSquare.style.height = (550 / size) + "px";
 
         gridContainer.appendChild(newSquare);
     }
